@@ -60,3 +60,4 @@ Got ideas for improvements? Feel free to **fork** this repository and submit a P
 
 This project is open source and available under the [MIT License](LICENSE).
 
+This project is no longer being updated
