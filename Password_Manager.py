@@ -14,14 +14,14 @@ def view():
             print(line.strip())
 
 def add():
-    """Add a new password."""
+    """Add any new password."""
     name = input('Account Name: ')
     pwd = input('Password: ')
     with open('passwords.txt', 'a') as f:
         f.write(name + ' | ' + pwd + '\n')
 
 def delete():
-    """Delete an account's saved password."""
+    """Delete any account's saved password."""
     account = input("Enter account name to delete: ")
     lines = []
     with open('passwords.txt', 'r') as f:
@@ -32,7 +32,7 @@ def delete():
                 f.write(line)
 
 def update():
-    """Update an existing password."""
+    """Update any existing password."""
     account = input("Enter account name to update: ")
     new_pwd = input("Enter new password: ")
     lines = []
