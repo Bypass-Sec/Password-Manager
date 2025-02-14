@@ -1,5 +1,5 @@
 
-# 🔒 Password Manager (Incomplete)
+# 🔒 Password Manager 
 
 A simple **Password Manager** script that allows you to securely store, update, and delete passwords for different accounts.
 
